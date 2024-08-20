@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*
+
+# Environments
+.env
+virt/
+ENV/
+
+# Django specific
+db.mysql
+/static/
+media/
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Local configuration
+local_settings.py
